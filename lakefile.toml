@@ -1,0 +1,20 @@
+name = "hex-poly-fast"
+defaultTargets = ["HexPolyFast"]
+
+leanOptions = [
+  { name = "doc.verso", value = true },
+  { name = "doc.verso.suggestions", value = false },
+]
+
+[[require]]
+name = "HexTruncatedSeries"
+git = "https://github.com/leanprover/hex-truncated-series.git"
+rev = "main"
+
+[[require]]
+name = "HexPoly"
+git = "https://github.com/leanprover/hex-poly.git"
+rev = "main"
+
+[[lean_lib]]
+name = "HexPolyFast"
