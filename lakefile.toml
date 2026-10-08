@@ -9,12 +9,12 @@ leanOptions = [
 [[require]]
 name = "HexTruncatedSeries"
 git = "https://github.com/leanprover/hex-truncated-series.git"
-rev = "v0.7.0"
+rev = "v0.8.0"
 
 [[require]]
 name = "HexPoly"
 git = "https://github.com/leanprover/hex-poly.git"
-rev = "v0.7.0"
+rev = "v0.8.0"
 
 [[lean_lib]]
 name = "HexPolyFast"
